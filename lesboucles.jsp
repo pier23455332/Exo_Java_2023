@@ -55,7 +55,7 @@
         </p>
         <p>
         <%
-            int integer2 = cpt1;
+            int integer2 = cpt1 + 1;
             for (int k = 1; k <= cpt1; k++) {
                 integer2 = integer2 - 1;
                 for (int l = 1; l <= integer2; l++) {
@@ -115,4 +115,3 @@
 <p><a href="index.html">Retour au sommaire</a></p>
 </body>
 </html>
-
