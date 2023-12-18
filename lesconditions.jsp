@@ -25,11 +25,11 @@
         
         <%-- Condition if pour comparer les valeurs --%>
         <% if (intValeur1 > intValeur2 && intValeur2 < intValeur3) { %>
-            <p>C est compris entre A et B</p>
+            <p>C n'est pas compris entre A et B</p>
         <% } else if (intValeur1 < intValeur2 && intValeur2 > intValeur3) { %>
             <p>C est compris entre A et B</p>
         <% } else { %>
-            <p>C n'est pas compris entre A et B</p>
+            <p>C est compris entre A et B</p>
         <% } %>
    
     
@@ -49,3 +49,4 @@ Oui C est compris entre A et B</p>
 <p><a href="index.html">Retour au sommaire</a></p>
 </body>
 </html>
+
