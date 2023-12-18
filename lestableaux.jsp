@@ -13,6 +13,7 @@
     <% String chaine = request.getParameter("chaine"); %>
     
     <% if (chaine != null) { %>
+    <% int intValeur1 = Integer.parseInt(chaine); %>
 
     <%-- Division de la chaîne de chiffres séparés par des espaces --%>
     <% String[] tableauDeChiffres = chaine.split("\\s+"); %>
@@ -20,7 +21,7 @@
     Chiffre 1 : <%= Integer.parseInt(tableauDeChiffres[0]) %></br>
     Chiffre 2 : <%= Integer.parseInt(tableauDeChiffres[1]) %></br>
     Chiffre 3 : <%= Integer.parseInt(tableauDeChiffres[2]) %>
-    <% int result = tableauDeChiffres[0] * tableauDeChiffres[0]; %>
+    <% int result = intValeur1 * intValeur1; %>
     Le carré du premier chiffre vaut :  <%= result %>
 </p>
 
