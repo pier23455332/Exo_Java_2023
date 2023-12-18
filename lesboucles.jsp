@@ -12,14 +12,14 @@
 </form>
 
 <%-- Récupération de la valeur saisie par l'utilisateur --%>
-<% String valeur = request.getParameter("valeur"); %>
+<% String valeuur = request.getParameter("valeuur"); %>
     
 <%-- Vérification de l'existence de la valeur --%>
-<% if (valeur != null && !valeur.isEmpty()) { %>
+<% if (valeuur != null && !valeuur.isEmpty()) { %>
 
     <%-- Boucle for pour afficher une ligne d'étoiles --%>
     <%
-        int cpt1 = Integer.parseInt(request.getParameter("valeur"));
+        int cpt1 = Integer.parseInt(request.getParameter("valeuur"));
     %>
     <p>
     <%
