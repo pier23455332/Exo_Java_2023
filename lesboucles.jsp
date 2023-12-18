@@ -6,8 +6,8 @@
 <body bgcolor=white>
 <h1>Exercices sur les boucles</h1>
 <form action="#" method="post">
-    <label for="inputValeur">Saisir le nombre d'étoiles : </label>
-    <input type="text" id="inputValeur" name="valeuur">
+    <label for="inpUutValeur">Saisir le nombre d'étoiles : </label>
+    <input type="text" id="inpUutValeur" name="valeuur">
     <input type="submit" value="Afficher">
 </form>
 
