@@ -72,7 +72,7 @@
         </p>
         <p>
             <%
-                string space = " ";
+                String space = " ";
                 int integer = 0;
                 int numberVoid = cpt1;
                 for (int j = 1; j <= cpt1; j++) {
@@ -141,4 +141,3 @@
 <p><a href="index.html">Retour au sommaire</a></p>
 </body>
 </html>
-
