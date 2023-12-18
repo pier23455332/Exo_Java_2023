@@ -19,7 +19,11 @@
     <p>La tableau contient <%= tableauDeChiffres.length %> valeurs</br>
     Chiffre 1 : <%= Integer.parseInt(tableauDeChiffres[0]) %></br>
     Chiffre 2 : <%= Integer.parseInt(tableauDeChiffres[1]) %></br>
-    Chiffre 3 : <%= Integer.parseInt(tableauDeChiffres[2]) %></p>
+    Chiffre 3 : <%= Integer.parseInt(tableauDeChiffres[2]) %>
+    int result = tableauDeChiffres[0] * tableauDeChiffres[0];
+    Le carré du premier chiffre vaut :  <%= result %>
+</p>
+
     
 <h2>Exercice 1 : La carré de la première valeur</h2>
 <p>Ecrire un programme afin d'afficher le carré de la première valeur</p>
