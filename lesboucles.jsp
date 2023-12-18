@@ -21,22 +21,22 @@
     <%
         int cpt1 = Integer.parseInt(request.getParameter("valeuur"));
     %>
-    <p>
-    <%
-        for (int j = 1; j <= cpt1; j++) {
-            for (int i = 1; i <= cpt1; i++) {
-    %>
-                <%= "*" %>
-    <%
+        <p>
+        <%
+            for (int j = 1; j <= cpt1; j++) {
+                for (int i = 1; i <= cpt1; i++) {
+        %>
+                    <%= "*" %>
+        <%
+                }
+        %>
+                <br/>
+        <%
             }
-    %>
-            <br/>
-    <%
-        }
-    %>
-  
-    </p>
-    <p>
+        %>
+    
+        </p>
+        <p>
         <%
             int integer = 0;
             for (int j = 1; j <= cpt1; j++) {
@@ -75,7 +75,7 @@
                 String space = " ";
                 int integer3 = 0;
                 int numberVoid = cpt1;
-                for (int j = 1; j <= cpt1; j++) {
+                for (int t = 1; t <= cpt1; t++) {
                     integer3 = integer3 + 1;
                     numberVoid = numberVoid - 1;
                     for (int n =1; n <= numberVoid; n++){
@@ -136,6 +136,12 @@
 <p>5 x 3 = 15</p>
 <p>5 x 4 = 20</p>
 <p>5 x 5 = 25</p>
+
+<% } %>
+<p><a href="index.html">Retour au sommaire</a></p>
+</body>
+</html>
+
 
 <% } %>
 <p><a href="index.html">Retour au sommaire</a></p>
