@@ -19,12 +19,12 @@
 
     <%-- Boucle for pour afficher une ligne d'étoiles --%>
     <%
-        int cpt = Integer.parseInt(request.getParameter("valeur"));
+        int cpt1 = Integer.parseInt(request.getParameter("valeur"));
     %>
     <p>
     <%
-        for (int j = 1; j <= cpt; j++) {
-            for (int i = 1; i <= cpt; i++) {
+        for (int j = 1; j <= cpt1; j++) {
+            for (int i = 1; i <= cpt1; i++) {
     %>
                 <%= "*" %>
     <%
