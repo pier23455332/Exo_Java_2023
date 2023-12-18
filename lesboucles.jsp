@@ -41,7 +41,7 @@
             int integer = 1;
             for (int j = 1; j <= cpt1; j++) {
                 integer = integer++;
-                for (int i = 1; i <= cpt1; i++) {
+                for (int i = 1; i <= integer; i++) {
         %>
                     <%= "*" %>
         <%
@@ -98,3 +98,4 @@
 <p><a href="index.html">Retour au sommaire</a></p>
 </body>
 </html>
+
