@@ -8,6 +8,7 @@
 <form action="#" method="post">
     <p>Saisir la valeur 1 : <input type="text" id="inputValeur" name="valeur1">
     <p>Saisir la valeur 2 : <input type="text" id="inputValeur" name="valeur2">
+    <p>Saisir la valeur 3 : <input type="text" id="inputValeur" name="valeur3">
     <p><input type="submit" value="Afficher">
 </form>
 <%-- Récupération des valeurs --%>
@@ -23,12 +24,12 @@
         <% int intValeur3 = Integer.parseInt(valeur3); %>
         
         <%-- Condition if pour comparer les valeurs --%>
-        <% if (intValeur1 > intValeur2) { %>
-            <p>Valeur 1 est supérieure à Valeur 2.</p>
-        <% } else if (intValeur1 < intValeur2) { %>
-            <p>Valeur 1 est inférieure à Valeur 2.</p>
+        <% if (intValeur1 > intValeur2 && intValeur2 < intValeur3) { %>
+            <p>C est compris entre A et B</p>
+        <% } else if (intValeur1 < intValeur2 && intValeur2 > intValeur3) { %>
+            <p>C est compris entre A et B</p>
         <% } else { %>
-            <p>Valeur 1 est égale à Valeur 2.</p>
+            <p>C n'est pas compris entre A et B</p>
         <% } %>
    
     
