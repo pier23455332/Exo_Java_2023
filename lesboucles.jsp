@@ -85,13 +85,13 @@
                                 }
                         %>
                     for (int o = 1; o <= integer3; o++) {
-            %>
-                        <%= "*" %>
+                        %>
+                                    <%= "*" %>
+                        <%
+                                }
+                        %>
             <%
                     }
-            %>
-            <%
-            }
             %>
                     <br/>
             <%
@@ -144,3 +144,4 @@
 <p><a href="index.html">Retour au sommaire</a></p>
 </body>
 </html>
+
