@@ -53,6 +53,23 @@
         %>
       
         </p>
+        <p>
+            <%
+                int integer = cpt1;
+                for (int j = 1; j <= cpt1; j++) {
+                    integer = integer - 1;
+                    for (int i = 1; i <= integer; i++) {
+            %>
+                        <%= "*" %>
+            <%
+                    }
+            %>
+                    <br/>
+            <%
+                }
+            %>
+          
+            </p>
 
 <h2>Exercice 1 : Le carré d'étoiles</h2>
 <p>Ecrire le code afin de produire un carré d'étoile</p>
@@ -98,4 +115,5 @@
 <p><a href="index.html">Retour au sommaire</a></p>
 </body>
 </html>
+
 
