@@ -70,35 +70,7 @@
         %>
     
         </p>
-        <p>
-            <%
-                String space = " ";
-                int integer3 = 0;
-                int numberVoid = cpt1;
-                for (int t = 1; t <= cpt1; t++) {
-                    integer3 = integer3 + 1;
-                    numberVoid = numberVoid - 1;
-                    for (int n =1; n <= numberVoid; n++){
-                        %>
-                                    <%= space %>
-                        <%
-                                }
-                        %>
-                    for (int o = 1; o <= integer3; o++) {
-                        %>
-                                    <%= "*" %>
-                        <%
-                                }
-                        %>
-            <%
-                    }
-            %>
-                    <br/>
-            <%
-                }
-            %>
-          
-        </p>
+
 
 <h2>Exercice 1 : Le carré d'étoiles</h2>
 <p>Ecrire le code afin de produire un carré d'étoile</p>
@@ -144,4 +116,3 @@
 <p><a href="index.html">Retour au sommaire</a></p>
 </body>
 </html>
-
