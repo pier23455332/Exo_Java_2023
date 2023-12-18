@@ -20,8 +20,10 @@
 <%-- Boucle for pour afficher une ligne d'étoiles --%>
     <%int cpt = Integer.parseInt(valeur); %>
     <p>
-    <% for (int i = 1; i <= cpt; i++) { %>
-       <%= "*" %>
+    <% for (int = i 1; i <= cpt; i++) { %>
+    <% for (int = i 1; i <= cpt; i++) { %>
+       <%= "*" %></br>
+    <% } %>
     <% } %>
     </p>
 
@@ -69,3 +71,4 @@
 <p><a href="index.html">Retour au sommaire</a></p>
 </body>
 </html>
+
