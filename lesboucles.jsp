@@ -65,7 +65,7 @@
     %>
     <p>
     <%
-        integer2 = integer++;
+        int integer2 = integer++;
         for (int j = 1; j <= cpt; j++) {
             for (int i = 1; i <= integer2; i++) {
     %>
