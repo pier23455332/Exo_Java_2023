@@ -20,7 +20,7 @@
     Chiffre 1 : <%= Integer.parseInt(tableauDeChiffres[0]) %></br>
     Chiffre 2 : <%= Integer.parseInt(tableauDeChiffres[1]) %></br>
     Chiffre 3 : <%= Integer.parseInt(tableauDeChiffres[2]) %>
-    int result = tableauDeChiffres[0] * tableauDeChiffres[0];
+    <% int result = tableauDeChiffres[0] * tableauDeChiffres[0]; %>
     Le carré du premier chiffre vaut :  <%= result %>
 </p>
 
@@ -52,3 +52,4 @@ Ecrire un programme afin de faire la somme de toutes les valeurs saisie par l'ut
 <p><a href="index.html">Retour au sommaire</a></p>
 </body>
 </html>
+
