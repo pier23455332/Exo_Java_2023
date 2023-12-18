@@ -6,8 +6,8 @@
 <body bgcolor=white>
 <h1>Exercices sur les boucles</h1>
 <form action="#" method="post">
-    <label for="inpUutValeur">Saisir le nombre d'étoiles : </label>
-    <input type="text" id="inpUutValeur" name="valeuur">
+    <label for="inputValeur">Saisir le nombre d'étoiles : </label>
+    <input type="text" id="inputValeur" name="valeuur">
     <input type="submit" value="Afficher">
 </form>
 
@@ -63,7 +63,7 @@
     <%
 
         for (int j = 1; j <= cpt; j++) {
-            int cpd = intege + 1;
+                    int cpd = intege + 1;
             for (int i = 1; i <= intege; i++) {
     %>
                 <%= "*" %>
@@ -119,4 +119,3 @@
 <p><a href="index.html">Retour au sommaire</a></p>
 </body>
 </html>
-
