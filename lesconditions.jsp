@@ -31,6 +31,13 @@
         <% } else { %>
             <p>C est compris entre A et B</p>
         <% } %>
+        <%-- Condition if pour savoir si valeur 1 est paire --%>
+        <% if (intValeur1 % 2 == 0) { %>
+            <p>Le chiffre A est pair</p>
+    
+        <% } else { %>
+            <p>Le chiffre A est impair</p>
+        <% } %>
    
     
 <h2>Exercice 1 : Comparaison 1</h2>
@@ -49,4 +56,3 @@ Oui C est compris entre A et B</p>
 <p><a href="index.html">Retour au sommaire</a></p>
 </body>
 </html>
-
